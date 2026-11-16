@@ -1,0 +1,6 @@
+case_id,username,password,expected,expected_error
+LOGIN-VALID,standard_user,secret_sauce,success,
+LOGIN-USER,invalid_user,secret_sauce,failure,Username and password do not match
+LOGIN-PASSWORD,standard_user,wrong_password,failure,Username and password do not match
+LOGIN-EMPTY,,,failure,Username is required
+LOGIN-LOCKED,locked_out_user,secret_sauce,failure,locked out

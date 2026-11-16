@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "LOGIN-VALID",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected": "success",
+    "expected_error": ""
+  },
+  {
+    "case_id": "LOGIN-USER",
+    "username": "invalid_user",
+    "password": "secret_sauce",
+    "expected": "failure",
+    "expected_error": "Username and password do not match"
+  },
+  {
+    "case_id": "LOGIN-PASSWORD",
+    "username": "standard_user",
+    "password": "wrong_password",
+    "expected": "failure",
+    "expected_error": "Username and password do not match"
+  },
+  {
+    "case_id": "LOGIN-EMPTY",
+    "username": "",
+    "password": "",
+    "expected": "failure",
+    "expected_error": "Username is required"
+  },
+  {
+    "case_id": "LOGIN-LOCKED",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expected": "failure",
+    "expected_error": "locked out"
+  }
+]

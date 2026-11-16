@@ -1,0 +1,97 @@
+{
+  "suite": "data_driven",
+  "status": "error",
+  "headless": true,
+  "aut": "https://www.saucedemo.com/",
+  "browser": "Chromium",
+  "plan": [
+    {
+      "id": "LOGIN-VALID",
+      "case_id": null,
+      "title": "LOGIN-VALID",
+      "key": "login_valid",
+      "data": {
+        "case_id": "LOGIN-VALID",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "success",
+        "expected_error": ""
+      },
+      "expected": "success",
+      "origin": "CSV/JSON data row"
+    },
+    {
+      "id": "LOGIN-USER",
+      "case_id": null,
+      "title": "LOGIN-USER",
+      "key": "login_invalid",
+      "data": {
+        "case_id": "LOGIN-USER",
+        "username": "invalid_user",
+        "password": "secret_sauce",
+        "expected": "failure",
+        "expected_error": "Username and password do not match"
+      },
+      "expected": "failure",
+      "origin": "CSV/JSON data row"
+    },
+    {
+      "id": "LOGIN-PASSWORD",
+      "case_id": null,
+      "title": "LOGIN-PASSWORD",
+      "key": "login_invalid",
+      "data": {
+        "case_id": "LOGIN-PASSWORD",
+        "username": "standard_user",
+        "password": "wrong_password",
+        "expected": "failure",
+        "expected_error": "Username and password do not match"
+      },
+      "expected": "failure",
+      "origin": "CSV/JSON data row"
+    },
+    {
+      "id": "LOGIN-EMPTY",
+      "case_id": null,
+      "title": "LOGIN-EMPTY",
+      "key": "login_invalid",
+      "data": {
+        "case_id": "LOGIN-EMPTY",
+        "username": "",
+        "password": "",
+        "expected": "failure",
+        "expected_error": "Username is required"
+      },
+      "expected": "failure",
+      "origin": "CSV/JSON data row"
+    },
+    {
+      "id": "LOGIN-LOCKED",
+      "case_id": null,
+      "title": "LOGIN-LOCKED",
+      "key": "login_invalid",
+      "data": {
+        "case_id": "LOGIN-LOCKED",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "expected": "failure",
+        "expected_error": "locked out"
+      },
+      "expected": "failure",
+      "origin": "CSV/JSON data row"
+    }
+  ],
+  "results": [],
+  "counts": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "not_run": 5
+  },
+  "id": "run-63f0f141c6",
+  "created_at": "2026-11-14T16:02:21.063083+00:00",
+  "updated_at": "2026-11-14T16:02:21.063088+00:00",
+  "started_at": "2026-11-14T16:02:21.064308+00:00",
+  "error": "BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --d",
+  "finished_at": "2026-11-14T16:02:21.405987+00:00"
+}

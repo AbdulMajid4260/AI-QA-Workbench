@@ -1,0 +1,39 @@
+{
+  "suite": "failure_demo",
+  "status": "error",
+  "headless": true,
+  "aut": "https://www.saucedemo.com/",
+  "browser": "Chromium",
+  "plan": [
+    {
+      "id": "BASE-01",
+      "case_id": null,
+      "title": "Controlled assertion failure",
+      "key": "checkout",
+      "data": {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "product": "Sauce Labs Backpack",
+        "first_name": "Demo",
+        "last_name": "Tester",
+        "postal_code": "530001"
+      },
+      "expected": "Log in; add one product; complete checkout with supplied synthetic fields; assert Thank you for your order!",
+      "origin": "Curated framework baseline",
+      "injected": true
+    }
+  ],
+  "results": [],
+  "counts": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "not_run": 1
+  },
+  "id": "run-6a002c3e04",
+  "created_at": "2026-11-14T16:02:21.408711+00:00",
+  "updated_at": "2026-11-14T16:02:21.408715+00:00",
+  "started_at": "2026-11-14T16:02:21.409722+00:00",
+  "error": "BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --d",
+  "finished_at": "2026-11-14T16:02:21.780628+00:00"
+}

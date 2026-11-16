@@ -1,0 +1,41 @@
+[
+  {
+    "id": "run-47a3752cae",
+    "suite": "smoke",
+    "status": "error",
+    "counts": {
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "not_run": 4
+    },
+    "browser_version": null,
+    "browser_source": null
+  },
+  {
+    "id": "run-63f0f141c6",
+    "suite": "data_driven",
+    "status": "error",
+    "counts": {
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "not_run": 5
+    },
+    "browser_version": null,
+    "browser_source": null
+  },
+  {
+    "id": "run-6a002c3e04",
+    "suite": "failure_demo",
+    "status": "error",
+    "counts": {
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "not_run": 1
+    },
+    "browser_version": null,
+    "browser_source": null
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "ai-qa-workbench-local",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python scripts/dev.py",
+    "build": "npm --prefix frontend run build",
+    "test": "python -m unittest discover -s backend/tests -v"
+  }
+}

@@ -1,0 +1,22 @@
+NORTHSTAR JOURNEYS — SYNTHETIC TRAINING POLICY
+
+This fictional document is for software testing practice only.
+
+BK-01 — Seat quantity
+A booking accepts between 1 and 6 seats inclusive.
+A request for 0 seats must be rejected.
+A request for 7 seats must be rejected.
+A booking for 6 seats must be accepted when six seats are available.
+Rejecting an invalid quantity must not create a booking reference.
+
+CN-01 — Cancellation
+Cancellation at least 48 hours before departure returns 100 percent of the base fare.
+Cancellation less than 48 hours before departure, but before departure time, returns 75 percent of the base fare.
+At departure time or later, there is no refund.
+Approved refunds are processed within 5 working days.
+Taxes and booking fees are outside this policy.
+
+Unspecified information
+The policy does not provide a customer helpline number or baggage allowance.
+Use synthetic traveler names and booking identifiers only.
+No live booking application is supplied with this document.

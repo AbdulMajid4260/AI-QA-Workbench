@@ -1,0 +1,53 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_ai_requires_actual_groq_key (test_workbench.WorkbenchTests.test_ai_requires_actual_groq_key) ... ok
+test_analysis_job_persistence (test_workbench.WorkbenchTests.test_analysis_job_persistence) ... ok
+test_approval_requires_review_note (test_workbench.WorkbenchTests.test_approval_requires_review_note) ... ok
+test_case_generation_defaults_draft (test_workbench.WorkbenchTests.test_case_generation_defaults_draft) ... ok
+test_complete_html_report_endpoint (test_workbench.WorkbenchTests.test_complete_html_report_endpoint) ... ok
+test_cross_origin_write_rejected (test_workbench.WorkbenchTests.test_cross_origin_write_rejected) ... ok
+test_csv_formula_escaping (test_workbench.WorkbenchTests.test_csv_formula_escaping) ... ok
+test_csv_upload_and_plan_each_row (test_workbench.WorkbenchTests.test_csv_upload_and_plan_each_row) ... ok
+test_document_case_cannot_gain_browser_adapter (test_workbench.WorkbenchTests.test_document_case_cannot_gain_browser_adapter) ... ok
+test_docx_table_extraction (test_workbench.WorkbenchTests.test_docx_table_extraction) ... ok
+test_draft_cannot_execute (test_workbench.WorkbenchTests.test_draft_cannot_execute) ... ok
+test_duplicate_dataset_ids_rejected (test_workbench.WorkbenchTests.test_duplicate_dataset_ids_rejected) ... ok
+test_edit_resets_execution_and_keeps_revision (test_workbench.WorkbenchTests.test_edit_resets_execution_and_keeps_revision) ... ok
+test_evidence_traversal_rejected (test_workbench.WorkbenchTests.test_evidence_traversal_rejected) ... ok
+test_fabricated_citation_withheld (test_workbench.WorkbenchTests.test_fabricated_citation_withheld) ... ok
+test_failed_result_generates_traceable_draft (test_workbench.WorkbenchTests.test_failed_result_generates_traceable_draft) ... ok
+test_failure_demo_explicitly_injected (test_workbench.WorkbenchTests.test_failure_demo_explicitly_injected) ... ok
+test_groq_wire_contract (test_workbench.WorkbenchTests.test_groq_wire_contract) ... ok
+test_health (test_workbench.WorkbenchTests.test_health) ... ok
+test_html_escapes_untrusted_text (test_workbench.WorkbenchTests.test_html_escapes_untrusted_text) ... ok
+test_injected_defect_label_preserved (test_workbench.WorkbenchTests.test_injected_defect_label_preserved) ... ok
+test_invalid_expected_value_rejected (test_workbench.WorkbenchTests.test_invalid_expected_value_rejected) ... ok
+test_invalid_json_repair_bounded (test_workbench.WorkbenchTests.test_invalid_json_repair_bounded) ... ok
+test_jira_publish_idempotent (test_workbench.WorkbenchTests.test_jira_publish_idempotent) ... ok
+test_jira_requires_review (test_workbench.WorkbenchTests.test_jira_requires_review) ... ok
+test_jira_timeout_locks_ambiguous_retry (test_workbench.WorkbenchTests.test_jira_timeout_locks_ambiguous_retry) ... ok
+test_jira_uses_adf_description (test_workbench.WorkbenchTests.test_jira_uses_adf_description) ... ok
+test_manual_cannot_execute (test_workbench.WorkbenchTests.test_manual_cannot_execute) ... ok
+test_markdown_document_upload (test_workbench.WorkbenchTests.test_markdown_document_upload) ... ok
+test_missing_dataset_not_silent_fallback (test_workbench.WorkbenchTests.test_missing_dataset_not_silent_fallback) ... ok
+test_no_evidence_abstains_without_ai_call (test_workbench.WorkbenchTests.test_no_evidence_abstains_without_ai_call) ... ok
+test_ollama_wire_contract_and_provenance (test_workbench.WorkbenchTests.test_ollama_wire_contract_and_provenance) ... ok
+test_passed_result_cannot_generate_defect (test_workbench.WorkbenchTests.test_passed_result_cannot_generate_defect) ... ok
+test_provider_failure_not_fake_success (test_workbench.WorkbenchTests.test_provider_failure_not_fake_success) ... ok
+test_restart_marks_interrupted (test_workbench.WorkbenchTests.test_restart_marks_interrupted) ... ok
+test_retrieval_selects_relevant_excerpt (test_workbench.WorkbenchTests.test_retrieval_selects_relevant_excerpt) ... ok
+test_review_and_plan_approved_case (test_workbench.WorkbenchTests.test_review_and_plan_approved_case) ... ok
+test_rtm_does_not_call_designed_tests_passed (test_workbench.WorkbenchTests.test_rtm_does_not_call_designed_tests_passed) ... ok
+test_secret_settings_redacted (test_workbench.WorkbenchTests.test_secret_settings_redacted) ... ok
+test_short_requirement_rejected (test_workbench.WorkbenchTests.test_short_requirement_rejected) ... ok
+test_testcase_export_includes_senior_qa_columns (test_workbench.WorkbenchTests.test_testcase_export_includes_senior_qa_columns) ... ok
+test_ungrounded_quote_blocks_approval (test_workbench.WorkbenchTests.test_ungrounded_quote_blocks_approval) ... ok
+test_unknown_inline_citation_withheld (test_workbench.WorkbenchTests.test_unknown_inline_citation_withheld) ... ok
+test_unknown_record_404 (test_workbench.WorkbenchTests.test_unknown_record_404) ... ok
+test_unknown_requirement_blocks_approval (test_workbench.WorkbenchTests.test_unknown_requirement_blocks_approval) ... ok
+test_unsupported_document_rejected (test_workbench.WorkbenchTests.test_unsupported_document_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.322s
+
+OK

@@ -1,0 +1,30 @@
+# Real credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Installed environments and dependencies
+.venv*/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local databases and demonstration workspaces
+runtime*/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Local uploads, archives and recordings
+upload/
+uploads/
+*.zip
+*.mp4
+*.mkv
+*.mov

@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "ASSESS-01-VALID",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected": "success",
+    "expected_error": ""
+  },
+  {
+    "case_id": "ASSESS-02-BAD-USER",
+    "username": "assessment_guest_94",
+    "password": "secret_sauce",
+    "expected": "failure",
+    "expected_error": "Username and password do not match"
+  },
+  {
+    "case_id": "ASSESS-03-BAD-PASSWORD",
+    "username": "standard_user",
+    "password": "assessment_wrong_94",
+    "expected": "failure",
+    "expected_error": "Username and password do not match"
+  },
+  {
+    "case_id": "ASSESS-04-NO-PASSWORD",
+    "username": "standard_user",
+    "password": "",
+    "expected": "failure",
+    "expected_error": "Password is required"
+  },
+  {
+    "case_id": "ASSESS-05-EMPTY",
+    "username": "",
+    "password": "",
+    "expected": "failure",
+    "expected_error": "Username is required"
+  }
+]

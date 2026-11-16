@@ -1,0 +1,6 @@
+case_id,username,password,expected,expected_error
+ASSESS-01-VALID,standard_user,secret_sauce,success,
+ASSESS-02-BAD-USER,assessment_guest_94,secret_sauce,failure,Username and password do not match
+ASSESS-03-BAD-PASSWORD,standard_user,assessment_wrong_94,failure,Username and password do not match
+ASSESS-04-NO-PASSWORD,standard_user,,failure,Password is required
+ASSESS-05-EMPTY,,,failure,Username is required
